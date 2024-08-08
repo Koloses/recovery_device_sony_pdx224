@@ -16,7 +16,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from hiphi device
+# Inherit from pdx224 device
 $(call inherit-product, device/sony/pdx224/device.mk)
 
 PRODUCT_DEVICE := pdx224

@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_hiphi.mk
+    $(LOCAL_DIR)/twrp_pdx224.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_hiphi-user \
-    twrp_hiphi-userdebug \
-    twrp_hiphi-eng
+    twrp_pdx224-user \
+    twrp_pdx224-userdebug \
+    twrp_pdx224-eng
