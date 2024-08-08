@@ -5,7 +5,7 @@
 //
 
 cc_library_static {
-    name: "libinit_hiphi",
+    name: "libinit_pdx224",
     recovery_available: true,
     srcs: ["init_hiphi.cpp"],
     whole_static_libs: ["libbase"],
