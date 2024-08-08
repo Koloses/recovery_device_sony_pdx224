@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_pdx224.mk
+    $(LOCAL_DIR)/twrp_xqcq54.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_pdx224-user \
-    twrp_pdx224-userdebug \
-    twrp_pdx224-eng
+    twrp_xqcq54-user \
+    twrp_xqcq54-userdebug \
+    twrp_xqcq54-eng
