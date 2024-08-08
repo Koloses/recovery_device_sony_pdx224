@@ -1,7 +1,7 @@
-Device configuration for Motorola Edge 30 Pro / Edge Plus (2022) / Edge Plus 5G UW / Edge X30 (hiphi/hiphic/hiphid)
+Device configuration for Sony Xperia 5 IV
 =========================================
 
-The Motorola Edge 30 Pro / Edge Plus (2022) / Edge Plus 5G UW / Edge X30 (codenamed _"hiphi/hiphic/hiphid"_) is a flagship smartphone from Motorola mobility announced in December 2021.
+The Sony Xperia 5 IV is an Android smartphone manufactured by Sony. Part of Sony's Xperia series, the phone was announced on September 1, 2022.
 
 ## Device specifications
 
@@ -10,44 +10,23 @@ Basic   | Spec Sheet
 SoC     | Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm)
 CPU     | Octa-core (1x3.0 GHz Kryo 780 & 3x2.5 GHz Kryo 780 & 4x1.8GHz Kryo 780)
 GPU     | Adreno 730
-Memory  | 8/12 GB RAM (LPDDR5)
-Shipped Android Version | 12.0, My UX 3.0 (Global) / MY UI 3.0 (China)
-Storage | 128/256/512 GB (UFS 3.1)
-Battery | Non-removable Li-Po 4800 mAh (Global) / 5000 mAh (China) battery
-Display | 2400 x 1080 pixels, 6.18 inches (~403 ppi density)
-Camera  | 50MP (Main) + 50MP (Ultra-wide) + 2MP (Depth) + 60MP (Selfie)
+Memory  | 8 GB RAM (LPDDR5)
+Shipped Android Version | 12.0
+Storage | 128/256 GB (UFS 3.X)
+Battery | Non-removable Li-Po 5000 mAh battery
+Display | 2520 x 1080 pixels, 6.1 inches (~449 ppi density)
+Camera  | Triple camera unit with 12MP 24mm f/1.7 , 12MP 60mm f/2.4 and 12MP 16mm f/2.2, 12MP f/2.0 front camera
 
 ## Device picture
-![Motorola Edge 30 Pro / Edge Plus (2022) / Edge Plus 5G UW / Edge X30](https://i.imgur.com/B0cNJ79.png)
+![Sony Xperia 5 IV](https://i.imgur.com/az3Pu1B.png)
 
 # Status
-Current state of features:
-- [x] Correct screen/recovery size
-- [x] Working touch, display
-- [x] Screen goes off and on
-- [x] Backup/restore to/from internal/external storage and adb
-- [x] Poweroff
-- [x] Reboot to system, bootloader, recovery, fastboot, edl
-- [x] ADB (including sideload)
-- [x] Support EROFS/F2FS/EXT4/exFAT/FAT32/NTFS
-- [x] Decrypt /data
-- [x] Flashing zip/images
-- [x] MTP export
-- [x] All important partitions listed in wipe/mount/backup lists
-- [x] Input devices via USB-OTG
-- [x] USB mass storage export
-- [x] Correct date
-- [x] Battery level
-- [x] Set brightness
-- [x] Vibrate and set vibration
-- [x] Screenshot
-- [x] Advanced features
-
+Current state of features is unknown as this device tree is adapted from another device (Motorola Edge 30 Pro / Edge Plus (2022) / Edge Plus 5G UW / Edge X30 (hiphi/hiphic/hiphid)) and still requires testing.
 # Building
 ```bash
 export ALLOW_MISSING_DEPENDENCIES=true
 source build/envsetup.sh
-lunch twrp_hiphi-eng
+lunch twrp_xqcq54-eng
 mka recoveryimage -j$(nproc --all)
 ```
 
